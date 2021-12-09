@@ -37,7 +37,6 @@ public class Server
                     out.println("Server: you said " + line);
                     out.flush();
                     line = in.readLine();
-                    System.out.println("Clientttt: " + line);
                 }
 
             } catch (Exception e) {
