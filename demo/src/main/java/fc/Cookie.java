@@ -15,10 +15,9 @@ public class Cookie
 {
     private String cookieStr = "";
 
-    public String getCookie() {
+    public String getCookie(String fileName) {
         // Put cookie_file.txt in the following dir.
         // System.out.println(Paths.get("").toAbsolutePath().toString());
-        String fileName = "cookie_file.txt";
         List<String> list = new ArrayList<>();
 
         try (Reader reader = new FileReader(fileName)) {
